@@ -1,0 +1,17 @@
+.Cellule {
+  animation-duration: 2s;
+  animation-name: colorChange;
+  /* animation-iteration-count: infinite; */
+}
+
+@keyframes colorChange {
+  from { 
+    color: '#12C33C'; 
+    opacity: 1;
+  }
+
+  to {
+    color: 'white';
+    opacity: 0;
+  }
+} 
